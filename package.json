@@ -8,8 +8,8 @@
   },
   "config": {
     "blanket": {
-      "pattern": "src",
-      "data-cover-never": "node_modules"
+      "pattern": ["lib"],
+      "data-cover-never": ["node_modules", "test"]
      }
   },
   "repository": {
@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/ryanwilliamquinn/mochablanketcoverage",
   "dependencies": {
-    "mocha": "latest",
-    "blanket": "latest"
+    "grunt": "latest",
+    "mocha": "~1.10.0",
+    "istanbul": "~0.1.36",
+    "grunt-mocha-istanbul": "1.5.0",
+    "should": "latest"
   }
 }

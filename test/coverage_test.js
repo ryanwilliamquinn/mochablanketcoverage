@@ -1,12 +1,13 @@
-var assert = require("assert"),
-  blanket = require('blanket'),
-  somecode = require('../src/somecode');
+var should = require('should'),
+  somecode = require('../lib/somecode');
 
-describe ('Array', function(){
-  describe ('#tested', function(){
-    it ('should be tested', function(){
-      assert.equals(2, somecode.tested());
+
+describe ('Messing with test coverage', function(){
+  describe ('somecode tests', function(){
+    it ('should run a test', function () {
+      somecode.tested().should.equal(2);
     });
+
   });
 });
 
