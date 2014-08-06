@@ -1,0 +1,33 @@
+{
+  "instrumentation": "node-jscoverage",
+  "sloc": 0,
+  "hits": 0,
+  "misses": 0,
+  "coverage": 0,
+  "files": [],
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2014-08-06T18:37:24.301Z",
+    "end": "2014-08-06T18:37:24.303Z",
+    "duration": 2
+  },
+  "tests": [
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+      "duration": 1
+    }
+  ],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should return -1 when the value is not present",
+      "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+      "duration": 1
+    }
+  ]
+}
